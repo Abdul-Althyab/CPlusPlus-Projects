@@ -14,6 +14,6 @@ int main()
 	cout << "Enter the diameter of the circle:\n";
 	cin >> diameter;
 
-	area = PI * (diameter / 2.0) * (diameter / 2.0);
+	area = PI * pow((diameter / 2.0), 2);
 	cout << "The area of the circle = " << area << endl;
 }
