@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -18,7 +19,7 @@ int main()
 	cout << "Enter the number of seconds: ";
 	cin >> seconds;
 	
-	totalSeconds = (days * 24 * 60 * 60) + (hours * 60 * 60) + (minutes * 60) + seconds;
+	totalSeconds = (days * 24 * pow(60, 2)) + (hours * pow(60, 2)) + (minutes * 60) + seconds;
 	cout << "Total duration in seconds: " << totalSeconds << " seconds" << endl;
 	return 0;
 }
