@@ -2,6 +2,11 @@
 #include <cmath>
 using namespace std;
 
+double power(double base, double exponent)
+{
+	return pow(base, exponent);
+}
+
 int main()
 {
 	double base, exponent, result;
@@ -12,6 +17,7 @@ int main()
 	cout << "Please enter the exponent: ";
 	cin >> exponent;
 	cout << endl;
-	result = pow(base, exponent);
+	result = power(base, exponent);
 	cout << base << " raised to the power of " << exponent << " is: " << result;
+	return 0;
 }
