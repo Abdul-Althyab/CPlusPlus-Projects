@@ -1,11 +1,16 @@
 #include <iostream>
 using namespace std;
 
+enum enDayOfWeek { Monday = 1, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
+
 int main()
 {
     int day;
+	enDayOfWeek dayOfWeek;
 	cout << "Enter a number (1-7) to represent a day of the week: ";
 	cin >> day;
+	dayOfWeek = (enDayOfWeek)day;
+
 
 	//if (day == 1)
 	//	cout << "Monday";
@@ -23,27 +28,27 @@ int main()
 	//	cout << "Sunday";
 	//else
 	//	cout << "Invalid input. Please enter a number between 1 and 7.";
-	switch (day)
+	switch (dayOfWeek)
 	{
-	case 1:
+	case enDayOfWeek::Monday:
 		cout << "Monday";
 		break;
-	case 2:
+	case enDayOfWeek::Tuesday:
 		cout << "Tuesday";
 		break;
-	case 3:
+	case enDayOfWeek::Wednesday:
 		cout << "Wednesday";
 		break;
-	case 4:
+	case enDayOfWeek::Thursday:
 		cout << "Thursday";
 		break;
-	case 5:
+	case enDayOfWeek::Friday:
 		cout << "Friday";
 		break;
-	case 6:
+	case enDayOfWeek::Saturday:
 		cout << "Saturday";
 		break;
-	case 7:
+	case enDayOfWeek::Sunday:
 		cout << "Sunday";
 		break;
 	default:
