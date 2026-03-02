@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_45Month of Year", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enums with IF Statements", "Enums with IF Statements\Enums with IF Statements.vcxproj", "{9531DAAC-54AF-4395-A94A-37D4C8A67EE9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_26Print Numbers from 1 to N", "Problem2_26Print Numbers from 1 to N\Problem2_26Print Numbers from 1 to N.vcxproj", "{53889273-BAE9-46C0-9220-3677D39E0BC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -351,6 +353,14 @@ Global
 		{9531DAAC-54AF-4395-A94A-37D4C8A67EE9}.Release|x64.Build.0 = Release|x64
 		{9531DAAC-54AF-4395-A94A-37D4C8A67EE9}.Release|x86.ActiveCfg = Release|Win32
 		{9531DAAC-54AF-4395-A94A-37D4C8A67EE9}.Release|x86.Build.0 = Release|Win32
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Debug|x64.ActiveCfg = Debug|x64
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Debug|x64.Build.0 = Debug|x64
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Debug|x86.ActiveCfg = Debug|Win32
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Debug|x86.Build.0 = Debug|Win32
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Release|x64.ActiveCfg = Release|x64
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Release|x64.Build.0 = Release|x64
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Release|x86.ActiveCfg = Release|Win32
+		{53889273-BAE9-46C0-9220-3677D39E0BC9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
