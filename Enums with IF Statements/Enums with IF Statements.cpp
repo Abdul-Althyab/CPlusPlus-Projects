@@ -25,16 +25,34 @@ int main()
 	enScreenColor color;
 	color = (enScreenColor)userInput;
 
-	if (color == enScreenColor::Red)
+	//if (color == enScreenColor::Red)
+	//	system("color 4F");
+	//else if (color == enScreenColor::Green)
+	//	system("color 2F");
+	//else if (color == enScreenColor::Blue)
+	//	system("color 1F");
+	//else if (color == enScreenColor::Yellow)
+	//	system("color 6F");
+	//else
+	//	system("color 0F");
+	switch (color)
+	{
+	case enScreenColor::Red:
 		system("color 4F");
-	else if (color == enScreenColor::Green)
+		break;
+	case enScreenColor::Green:
 		system("color 2F");
-	else if (color == enScreenColor::Blue)
+		break;
+	case enScreenColor::Blue:
 		system("color 1F");
-	else if (color == enScreenColor::Yellow)
+		break;
+	case enScreenColor::Yellow:
 		system("color 6F");
-	else
+		break;
+	default:
 		system("color 0F");
+		break;
+	}
 
 	return 0;
 }
