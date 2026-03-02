@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_34Commission Perce
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_36Simple Calculator", "Problem2_36Simple Calculator\Problem2_36Simple Calculator.vcxproj", "{D770DA6B-A403-4893-9422-BA52B64F1952}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_44Day Of Week", "Problem2_44Day Of Week\Problem2_44Day Of Week.vcxproj", "{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{D770DA6B-A403-4893-9422-BA52B64F1952}.Release|x64.Build.0 = Release|x64
 		{D770DA6B-A403-4893-9422-BA52B64F1952}.Release|x86.ActiveCfg = Release|Win32
 		{D770DA6B-A403-4893-9422-BA52B64F1952}.Release|x86.Build.0 = Release|Win32
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Debug|x64.ActiveCfg = Debug|x64
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Debug|x64.Build.0 = Debug|x64
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Debug|x86.Build.0 = Debug|Win32
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Release|x64.ActiveCfg = Release|x64
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Release|x64.Build.0 = Release|x64
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Release|x86.ActiveCfg = Release|Win32
+		{B8A62D0B-3B6F-4261-AEBF-5CF3C0460B21}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
