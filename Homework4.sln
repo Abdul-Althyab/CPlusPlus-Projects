@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_28Print Sum Odd Nu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_29Print Sum Even Numbers from 1 to N", "Problem2_29Print Sum Even Numbers from 1 to N\Problem2_29Print Sum Even Numbers from 1 to N.vcxproj", "{6E0B707A-70FD-4D4C-A90C-517958D079CE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2_30Factorial of N!", "Problem2_30Factorial of N!\Problem2_30Factorial of N!.vcxproj", "{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{6E0B707A-70FD-4D4C-A90C-517958D079CE}.Release|x64.Build.0 = Release|x64
 		{6E0B707A-70FD-4D4C-A90C-517958D079CE}.Release|x86.ActiveCfg = Release|Win32
 		{6E0B707A-70FD-4D4C-A90C-517958D079CE}.Release|x86.Build.0 = Release|Win32
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Debug|x64.ActiveCfg = Debug|x64
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Debug|x64.Build.0 = Debug|x64
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Debug|x86.Build.0 = Debug|Win32
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Release|x64.ActiveCfg = Release|x64
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Release|x64.Build.0 = Release|x64
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Release|x86.ActiveCfg = Release|Win32
+		{F9ED32E4-BE89-4395-9CE4-9F8D329A46DD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
